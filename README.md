@@ -281,7 +281,9 @@ https://server_domain_or_IP/wordpress
 <br>
 <p>Quando clicar adiante, você será levado para uma página que solicita que você faça login:</p>
 <img src="loginwordpress.png" style="zoom:50%;" />
+
 <p>Assim que fizer login, será levado para o painel de administração do WordPress:</p>
+
 ![](adminwordpress.png)
 
 ### 1.7. Conclusão <h3>
@@ -291,8 +293,6 @@ https://server_domain_or_IP/wordpress
 ### 1.8. Referências <h3>
 
 [Como instalar o WordPress com o LAMP no Ubuntu 18.04](https://blog.da2k.com.br)
-
-
 
 
 
