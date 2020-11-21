@@ -211,7 +211,7 @@ sudo find /var/www/wordpress/ -type f -exec chmod 640 {} \;
 
 <p>Essas devem ser permissões razoáveis para começar. Alguns plug-ins e procedimentos podem precisar de ajustes adicionais.</p>
 
-#### 1.5.2. Configurando o arquivo de configuração do WordPress <h4>
+#### 1.5.2. Configurando o arquivo de configuração do WordPress. <h4>
 
 <p>Agora, precisamos fazer algumas alterações no arquivo de configuração principal do WordPress.</p>
 <p>Quando abrimos o arquivo,nossa prioridade será ajustar algumas chaves secretas para dar segurança para nossa instalação. O WordPress oferece um gerador seguro para esses valores para que você não tenha que tentar obter bons valores por conta própria. Esses valores são usados internamente, de modo que ter valores seguros e complexos aqui não irá atrapalhar a usabilidade.</p>
