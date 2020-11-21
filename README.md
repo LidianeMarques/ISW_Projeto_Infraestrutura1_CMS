@@ -246,22 +246,22 @@ sudo nano /var/www/wordpress/wp-config.php
 
 <p>Encontre a seção que contém os valores fictícios para essas configurações. Eles se parecerão com isso:</p>
 
-![](Cd2.png)
+<img src="Cd2.png" style="zoom: 20%;" />
 
 <p>Exclua essas linhas e cole os valores que copiou da linha de comando:</p>
 
-![](Cd.png)
+<img src="Cd.png" style="zoom: 20%;" />
 
 <p>Em seguida, precisamos modificar algumas das configurações de conexão do banco de dados no início do arquivo. Você precisa ajustar o nome do banco de dados, o usuário do banco de dados e a senha associada que configuramos no MySQL.</p>
 <p>A outra mudança que precisamos fazer é definir o método que o WordPress deve usar para gravar no sistema de arquivos. Uma vez que demos permissão ao servidor Web para gravar onde ele precisar, podemos definir explicitamente o método do sistema de arquivos como “direct” (direto). Deixar de definir esse método de acesso - usando nossas configurações atuais, levaria o WordPress a solicitar credenciais FTP quando realizássemos algumas ações.</p>
 <p>Esta configuração pode ser adicionada abaixo das configurações de conexão do banco de dados ou em qualquer outro lugar no arquivo:</p>
 
-![](Cd3.png)
+<img src="Cd3.png" style="zoom: 20%;" />
 
 <p>Depois de fazer essas alterações no arquivo wp-config.php, salve e feche o arquivo.</p>
 <hr/>
 
-### 1.6. Concluindo a instalação através da Interface com a Web <h3>
+### 1.6. Concluindo a instalação através da Interface com a Web. <h3>
 
 <p>Agora que a configuração do servidor está completa, podemos concluir a instalação através da interface com a Web.</p>
 <p>No seu navegador Web, navegue até o nome de domínio do seu servidor ou endereço IP público:</p>
@@ -271,16 +271,16 @@ https://server_domain_or_IP/wordpress
 ~~~
 
 <p>Selecione a linguagem que você gostaria de usar:</p>
-<img src="language_selection.png" style="zoom: 80%;" />
+<img src="language_selection.png" style="zoom: 30%;" />
 
 <p>Em seguida, você chegará à página de configuração principal.</p>
 <p>Selecione um nome para seu site do WordPress e escolha um nome de usuário <b>(É recomendável não escolher algo como “admin” por motivos de segurança)</b>. Uma senha forte será gerada automaticamente. Salve essa senha ou selecione uma senha forte alternativa.</p>
 <p>Digite seu endereço de e-mail e selecione se deseja impedir que mecanismos de pesquisa façam a indexação do seu site:</p>
-<img src="pageconfig.png" style="zoom: 50%;" />
+<img src="pageconfig.png" style="zoom: 30%;" />
 
 <br>
 <p>Quando clicar adiante, você será levado para uma página que solicita que você faça login:</p>
-<img src="loginwordpress.png" style="zoom:50%;" />
+<img src="loginwordpress.png" style="zoom:20%;" />
 
 <p>Assim que fizer login, será levado para o painel de administração do WordPress:</p>
 
